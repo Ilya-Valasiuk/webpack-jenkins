@@ -1,0 +1,31 @@
+.time-hint {
+    padding-top: 62px;
+}
+.time-hint-body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #404a58;
+    display: flex;
+    flex-direction: column;
+}
+.time-hint-body>* {
+    box-sizing: border-box;
+    height: 70px;
+    padding: 5px;
+    text-align: right;
+    border-bottom: 1px solid #fb6362;
+}
+.hour {
+    box-sizing: border-box;
+    height: 70px;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #fb6362;
+}
+.event {
+    background-color: #666;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+}

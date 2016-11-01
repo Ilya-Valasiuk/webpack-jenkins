@@ -1,0 +1,33 @@
+.day {
+    width: 120px;
+    height: auto;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.day-inf {
+    color: #42AFD4;
+    border-bottom: 2px solid #fb6362;
+    /*margin-bottom: 15px;*/
+}
+
+.day-name {
+    display: block;
+    padding: 10px 0;
+    font-size: 24px;
+    text-align: center;
+
+    color: rgb(64, 74, 88);
+}
+.day-date {
+    display: block;
+    padding: 2px 0;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(64, 74, 88);
+}
+.day-body {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+}
