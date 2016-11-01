@@ -22,7 +22,7 @@ module.exports = {
             }
         ]
     },
-    watch: true,
+    watch: false,
     plugins: [
         new WebpackNotifierPlugin(),
         new webpack.ProvidePlugin({
